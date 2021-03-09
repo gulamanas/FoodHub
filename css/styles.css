@@ -1,0 +1,362 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    overflow-x: hidden;
+    font-family: 'Alatsi', sans-serif;
+    
+}
+
+/* ********* Navigation ********** */
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    z-index: 999;
+    -webkit-box-shadow: 0px 4px 8px -1px rgba(112,108,112,0.87);
+    -moz-box-shadow: 0px 4px 8px -1px rgba(112,108,112,0.87);
+    box-shadow: 0px 4px 8px -1px rgba(112,108,112,0.87);
+}
+
+nav {
+    position: fixed;
+}
+
+.header .nav {
+    display: flex;
+    justify-content:space-around;
+    width: 30%;    
+}
+
+.nav li {
+    list-style: none;
+    text-transform: uppercase;
+    /* float: right; */
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+    color: darkcyan;;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 4vw;
+    /* float: left; */
+}
+
+/* ******** Cover *********** */
+
+.img {
+    margin-top: 40px;
+}
+
+
+.img img {
+    width: 100vw;
+    height: 95vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.img h1 {
+    position: absolute;
+    top: 40vh;
+    font-size: 65px;
+    left: 7vw;
+    color: white;
+    border: 2px black;
+    text-shadow: 5px 3px 3px  black;
+}
+
+.img button {
+    position: absolute;
+    top: 78vh;
+    left: 15vw;
+    color: rgb(0, 0, 0);
+    background-color: #E2AE26;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.img button:hover {
+    color: rgb(11, 123, 131);
+    background-color: #ffffff;
+}
+
+#button2 {
+    position: absolute;
+    top: 68vh;
+    left: 15vw;
+    color: rgb(0, 0, 0);
+    background-color: #E2AE26;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#button2:hover {
+    color: rgb(11, 123, 131);
+    background-color: #ffffff;
+}
+
+hr {
+    margin-top: 30px;
+    margin-left: 40vw;
+    border-top: 2px dashed black;
+    width: 20%;
+    
+}
+
+#res {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline solid black;
+    text-transform: uppercase;
+
+}
+
+#menu {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline solid black;
+    text-transform: uppercase;
+}
+
+#about {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline solid black;
+    text-transform: uppercase;
+}
+
+/* ************ Form ************** */
+
+
+
+.forminput label {
+    margin-left: 30vw;
+    margin-top: 20px;
+}
+
+.forminput input {
+    width: 40%;
+    padding: 10px;
+    margin-left:30vw ;
+    border: 1px solid rgb(110, 74, 19);
+    border-radius: 8px;
+    
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: black;
+}
+
+#submit {
+    margin-left: 43vw;
+    padding: 10px 20px;
+    color: black;
+    background-color: cadetblue;
+    margin: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: white;
+    background-color: teal;
+}
+
+#reset {
+    margin-right: 44vw;
+    padding: 10px 20px;
+    color: black;
+    background-color: cadetblue;
+    margin: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset:hover {
+    color: white;
+    background-color: teal;
+}
+
+
+
+
+/* ********************************* Menu ****************************** */
+
+/* ********** Food Category *********** */
+
+#category1 {
+    margin-top: 20px;
+    margin-left: 10vw;
+    text-transform: uppercase;
+    text-decoration: underline solid black;
+}
+
+#para {
+    margin-left: 84vw;
+    margin-bottom: 20px;
+    color: rgb(78, 78, 78);
+}
+
+#para:hover {
+    color: darkcyan;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.burger {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.burger1 {
+    text-transform: uppercase;
+    /* margin-left: 10vw; */
+}
+
+.food {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.foodname {
+    font-size: 25px;
+}
+
+.details {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.click {
+    margin-top: 10px;
+    margin-left: 2vw;
+    border: 2px solid #0085FF;
+    padding: 10px 20px;
+    color: #0085FF;
+    text-transform: uppercase;
+    /* background-color: black; */
+}
+
+#category2 {
+    margin-top: 15vh;
+    margin-left: 10vw;
+    text-transform: uppercase;
+    text-decoration: underline solid black;
+}
+
+/* ********************* About Us ************************* */
+
+.chef {
+    margin-top: 20vh;
+    display: flex;
+    object-fit: cover;
+    justify-content: space-evenly;
+}
+
+#chef {
+    width: 300px;
+    /* height: 200px; */
+}
+
+.chef div {
+    width: 30vw;
+    font-size: 20px;
+}
+
+.chef p {
+    margin-top: 20px;
+    color: rgb(116, 114, 114);
+}
+
+.pasta {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pasta div {
+    width: 30vw;
+    font-size: 20px;
+}
+
+.pasta p {
+    margin-top: 20px;
+    color: rgb(116, 114, 114);
+}
+
+#pasta {
+    width: 300px;
+}
+
+/* ************* Footer *************** */
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    background-color: darkgrey;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.l-footer {
+    margin-top: 4vh;
+    width: 20vw;
+    margin-left: 10vw;
+}
+
+.l-footer p {
+    margin-top: 10px;
+    color:rgb(65, 65, 65);
+}
+
+.r-footer {
+    margin-top: 4vh;
+    margin-right: 10vw;
+}
+
+.r-footer h2 {
+    margin-bottom: 10px;
+}
+
+.r-footer li {
+    list-style-type: none
+}
+
+.r-footer a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+.r-footer a:hover {
+    color: darkcyan;
+    text-decoration: underline solid darkcyan;
+}
