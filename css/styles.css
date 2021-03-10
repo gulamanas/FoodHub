@@ -12,7 +12,6 @@
 /* ********* Navigation ********** */
 
 
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -264,6 +263,13 @@ hr {
     color: #0085FF;
     text-transform: uppercase;
     /* background-color: black; */
+}
+
+.click:hover {
+    color: white;
+    background-color: teal;
+    border: none;
+    /* cursor: pointer; */
 }
 
 #category2 {
